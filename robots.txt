@@ -1,4 +1,36 @@
 User-agent: *
 Allow: /
 
+# --- Crawlers d'IA: entrenament bloquejat, citacio oberta ---
+# Motiu i llista canonica: ~/.claude/CLAUDE.md, seccio "Crawlers d'IA".
+# Dues regles si edites aixo: coincidencia EXACTA de nom (ClaudeBot i Claude-User
+# comparteixen prefix, i un comodi mata la citacio sense fer cap soroll), i cap
+# grup Allow per als de citacio -- un grup propi substitueix el grup * sencer, o
+# sigui que han de caure al * per heretar-ne les regles.
+#
+# Aquest site es GitHub Pages sense Cloudflare al davant, o sigui que aqui
+# aquestes linies son l'unic mecanisme que hi ha: les respecta qui vol. Als set
+# sites proxied hi ha una regla de Cloudflare al darrere que les fa complir.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
 Sitemap: https://subs.geeknite.com/sitemap.xml
