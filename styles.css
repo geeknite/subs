@@ -574,18 +574,88 @@ footer {
     font-size: 0.85rem;
 }
 
-.footer-link {
-    margin-top: 0.5rem;
-}
-
-.footer-link a {
+footer a {
     color: var(--accent);
     text-decoration: none;
     transition: opacity var(--transition);
 }
 
-.footer-link a:hover {
+footer a:hover {
     opacity: 0.8;
+}
+
+.footer-tagline {
+    margin-bottom: 1.5rem;
+}
+
+/* The two blocks below read as prose, so they are left-aligned even though the
+   footer as a whole is centred. */
+.footer-top,
+.footer-eco {
+    text-align: left;
+    border-top: 1px solid var(--border);
+    padding-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer-top {
+    display: grid;
+    gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+.footer-legal {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-support-title,
+.footer-eco-title {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.footer-support-text {
+    margin-bottom: 0.5rem;
+}
+
+.footer-cta {
+    font-weight: 600;
+}
+
+.footer-groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .footer-groups {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.footer-group {
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.footer-groups ul {
+    list-style: none;
+}
+
+.footer-groups li {
+    margin-bottom: 0.2rem;
 }
 
 /* Responsive */

@@ -257,11 +257,83 @@
         </div>
 
         <footer>
-            <p>Made with 💸 by people who also have too many subs</p>
-            <p class="footer-link">
-                <a href="https://geeknite.com">geeknite.com</a> · 
-                <a href="https://blog.geeknite.com">blog</a>
-            </p>
+            <p class="footer-tagline">Made with 💸 by people who also have too many subs</p>
+
+            <div class="footer-top">
+                <div>
+                    <!-- The calculator carries no affiliate links of its own -- privacy.html
+                         says so in those words -- so this names who actually pays. -->
+                    <p class="footer-funding">Free, in your browser. Advertising pays for the hosting; this site carries no affiliate links of its own.</p>
+                    <p class="footer-legal">
+                        <a href="/privacy.html" class="footer-privacy-link">Privacy policy</a>
+                        <a href="/legal.html" class="footer-legal-link">Legal notice</a>
+                    </p>
+                </div>
+                <div>
+                    <h2 class="footer-support-title">Support GeekNite</h2>
+                    <p class="footer-support-text">Patrons browse every GeekNite site ad-free, this one included: one membership covers them all.</p>
+                    <p>
+                        <!-- return_to brings the reader back here. The blog's safeReturnTo()
+                             accepts any *.geeknite.com origin (measured live 2026-09-18).
+                             The URL is fixed because the site is a single page. -->
+                        <a
+                            class="footer-cta"
+                            href="https://blog.geeknite.com/api/patreon/login?return_to=https%3A%2F%2Fsubs.geeknite.com%2F"
+                            rel="noopener"
+                        >Become a patron, or sign in →</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- The ten public siblings, grouped the way www does it
+                 (HTG/htg-next/components/MainLayout.js). Plain links and never
+                 rel="nofollow": measured 2026-09-16 over 481 days of Search Console,
+                 www is the only page on the domain Google has ever indexed, so a link
+                 from a sibling's footer is the whole crawl path they have.
+                 motivate.geeknite.com is missing on purpose: it is an app behind a
+                 login (`/` 302s to `/auth/login`), and a link would send reader and
+                 crawler to a form. Measured 2026-09-18.
+                 The site names are not translated -- they are the names the sites
+                 answer to -- but the headings around them are. -->
+            <div class="footer-eco">
+                <h2 class="footer-eco-title">The rest of GeekNite</h2>
+                <div class="footer-groups">
+                    <div>
+                        <p class="footer-group" data-group="geeknite">GeekNite</p>
+                        <ul>
+                            <li><a href="https://www.geeknite.com" hreflang="en" rel="noopener">GeekNite Search</a></li>
+                            <li><a href="https://blog.geeknite.com" hreflang="en" rel="noopener">GeekNite Blog</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="footer-group" data-group="trackers">Price Trackers</p>
+                        <ul>
+                            <li><a href="https://ebikes.geeknite.com" hreflang="en" rel="noopener">eBike MTB Comparison</a></li>
+                            <li><a href="https://ddr5.geeknite.com" hreflang="es" rel="noopener">DDR5 RAM Deals</a></li>
+                            <li><a href="https://trailrunning.geeknite.com" hreflang="en" rel="noopener">Trail Running Shoes</a></li>
+                            <li><a href="https://switch2digitalgames.geeknite.com" hreflang="en" rel="noopener">Switch 2 Game Prices</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="footer-group" data-group="tools">Free Tools</p>
+                        <ul>
+                            <li><a href="https://worthit.geeknite.com" hreflang="en" rel="noopener">Is It Worth Finishing?</a></li>
+                            <li><a href="https://menu.geeknite.com" hreflang="es" rel="noopener">Menu Semanal</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="footer-group" data-group="games">Games</p>
+                        <ul>
+                            <li><a href="https://peloton-tactics.geeknite.com" hreflang="en" rel="noopener">Peloton Tactics</a></li>
+                            <li><a href="https://heat-solo.geeknite.com" hreflang="ca" rel="noopener">HEAT Solo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The year is written by the browser: a literal would be the one fixed
+                 year in the house and would go stale on 1 January unnoticed. -->
+            <p class="footer-copy">&copy; <span id="footer-year"></span> geeknite.com</p>
         </footer>
     </div>
 

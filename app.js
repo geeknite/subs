@@ -42,6 +42,16 @@
             affiliateGaming: "🎮 Gaming Deals",
             affiliateStreaming: "📺 Streaming Tips",
             affiliateSave: "💰 Save Money Guide",
+            footerFunding: "Free, in your browser. Advertising pays for the hosting; this site carries no affiliate links of its own.",
+            footerPrivacy: "Privacy policy",
+            footerLegal: "Legal notice",
+            footerSupportTitle: "Support GeekNite",
+            footerSupportText: "Patrons browse every GeekNite site ad-free, this one included: one membership covers them all.",
+            footerSupportCta: "Become a patron, or sign in →",
+            footerEcosystem: "The rest of GeekNite",
+            footerGroupTrackers: "Price Trackers",
+            footerGroupTools: "Free Tools",
+            footerGroupGames: "Games",
             messages: {
                 excellent: [
                     "🎯 Maximum efficiency. You're a machine.",
@@ -104,6 +114,16 @@
             affiliateGaming: "🎮 Ofertas Gaming",
             affiliateStreaming: "📺 Tips Streaming",
             affiliateSave: "💰 Guía de Ahorro",
+            footerFunding: "Gratis, en tu navegador. La publicidad paga el alojamiento; esta web no lleva enlaces de afiliado propios.",
+            footerPrivacy: "Política de privacidad",
+            footerLegal: "Aviso legal",
+            footerSupportTitle: "Apoya a GeekNite",
+            footerSupportText: "Los mecenas navegan sin anuncios por todas las webs de GeekNite, esta incluida: una sola suscripción las cubre todas.",
+            footerSupportCta: "Hazte mecenas, o inicia sesión →",
+            footerEcosystem: "El resto de GeekNite",
+            footerGroupTrackers: "Comparadores",
+            footerGroupTools: "Herramientas gratuitas",
+            footerGroupGames: "Juegos",
             messages: {
                 excellent: [
                     "🎯 Eficiencia máxima. Eres una máquina.",
@@ -166,6 +186,16 @@
             affiliateGaming: "🎮 Ofertes Gaming",
             affiliateStreaming: "📺 Tips Streaming",
             affiliateSave: "💰 Guia d'Estalvi",
+            footerFunding: "Gratuït i al navegador. La publicitat paga l'allotjament; aquest lloc no porta cap enllaç d'afiliació propi.",
+            footerPrivacy: "Política de privacitat",
+            footerLegal: "Avís legal",
+            footerSupportTitle: "Dona suport a GeekNite",
+            footerSupportText: "Els mecenes naveguen sense anuncis per tots els llocs de GeekNite, aquest inclòs: una sola subscripció els cobreix tots.",
+            footerSupportCta: "Fes-te mecenes, o inicia la sessió →",
+            footerEcosystem: "La resta de GeekNite",
+            footerGroupTrackers: "Comparadors",
+            footerGroupTools: "Eines gratuïtes",
+            footerGroupGames: "Jocs",
             messages: {
                 excellent: [
                     "🎯 Eficiència màxima. Ets una màquina.",
@@ -228,6 +258,16 @@
             affiliateGaming: "🎮 Ofertas Gaming",
             affiliateStreaming: "📺 Dicas Streaming",
             affiliateSave: "💰 Guia de Economia",
+            footerFunding: "Grátis, no teu navegador. A publicidade paga o alojamento; este site não tem links de afiliado próprios.",
+            footerPrivacy: "Política de privacidade",
+            footerLegal: "Aviso legal",
+            footerSupportTitle: "Apoia a GeekNite",
+            footerSupportText: "Os mecenas navegam sem anúncios em todos os sites da GeekNite, este incluído: uma só subscrição cobre todos.",
+            footerSupportCta: "Torna-te mecenas, ou inicia sessão →",
+            footerEcosystem: "O resto da GeekNite",
+            footerGroupTrackers: "Comparadores",
+            footerGroupTools: "Ferramentas gratuitas",
+            footerGroupGames: "Jogos",
             messages: {
                 excellent: [
                     "🎯 Eficiência máxima. Você é uma máquina.",
@@ -290,6 +330,16 @@
             affiliateGaming: "🎮 Gaming Deals",
             affiliateStreaming: "📺 Streaming Tipps",
             affiliateSave: "💰 Spar-Guide",
+            footerFunding: "Kostenlos, im Browser. Werbung bezahlt das Hosting; diese Seite hat keine eigenen Affiliate-Links.",
+            footerPrivacy: "Datenschutzerklärung",
+            footerLegal: "Impressum",
+            footerSupportTitle: "Unterstütze GeekNite",
+            footerSupportText: "Unterstützer surfen auf allen GeekNite-Seiten werbefrei, auch auf dieser: eine Mitgliedschaft deckt alle ab.",
+            footerSupportCta: "Unterstützer werden, oder anmelden →",
+            footerEcosystem: "Der Rest von GeekNite",
+            footerGroupTrackers: "Preisvergleiche",
+            footerGroupTools: "Kostenlose Tools",
+            footerGroupGames: "Spiele",
             messages: {
                 excellent: [
                     "🎯 Maximale Effizienz. Du bist eine Maschine.",
@@ -352,6 +402,16 @@
             affiliateGaming: "🎮 Offres Gaming",
             affiliateStreaming: "📺 Astuces Streaming",
             affiliateSave: "💰 Guide Économies",
+            footerFunding: "Gratuit, dans ton navigateur. La publicité paie l'hébergement ; ce site n'a aucun lien d'affiliation propre.",
+            footerPrivacy: "Politique de confidentialité",
+            footerLegal: "Mentions légales",
+            footerSupportTitle: "Soutiens GeekNite",
+            footerSupportText: "Les mécènes naviguent sans publicité sur tous les sites GeekNite, celui-ci compris : un seul abonnement les couvre tous.",
+            footerSupportCta: "Devenir mécène, ou se connecter →",
+            footerEcosystem: "Le reste de GeekNite",
+            footerGroupTrackers: "Comparateurs de prix",
+            footerGroupTools: "Outils gratuits",
+            footerGroupGames: "Jeux",
             messages: {
                 excellent: [
                     "🎯 Efficacité maximale. Vous êtes une machine.",
@@ -414,6 +474,16 @@
             affiliateGaming: "🎮 Offerte Gaming",
             affiliateStreaming: "📺 Tips Streaming",
             affiliateSave: "💰 Guida al Risparmio",
+            footerFunding: "Gratis, nel tuo browser. La pubblicità paga l'hosting; questo sito non ha link di affiliazione propri.",
+            footerPrivacy: "Informativa sulla privacy",
+            footerLegal: "Note legali",
+            footerSupportTitle: "Sostieni GeekNite",
+            footerSupportText: "I mecenati navigano senza pubblicità su tutti i siti GeekNite, questo incluso: un solo abbonamento li copre tutti.",
+            footerSupportCta: "Diventa mecenate, o accedi →",
+            footerEcosystem: "Il resto di GeekNite",
+            footerGroupTrackers: "Comparatori di prezzi",
+            footerGroupTools: "Strumenti gratuiti",
+            footerGroupGames: "Giochi",
             messages: {
                 excellent: [
                     "🎯 Efficienza massima. Sei una macchina.",
@@ -913,7 +983,32 @@
         document.querySelector('.disclaimer').textContent = t('disclaimer');
         document.querySelector('.breakdown-card h3').textContent = t('breakdown');
         elements.shareBtn.textContent = t('shareBtn');
-        document.querySelector('footer p').textContent = t('footer');
+        document.querySelector('.footer-tagline').textContent = t('footer');
+
+        // Footer. The ten sibling site names stay untranslated -- they are the names
+        // those sites answer to -- but every heading and every line of prose around
+        // them follows the language selector like the rest of the page.
+        const footerStrings = {
+            '.footer-funding': 'footerFunding',
+            '.footer-privacy-link': 'footerPrivacy',
+            '.footer-legal-link': 'footerLegal',
+            '.footer-support-title': 'footerSupportTitle',
+            '.footer-support-text': 'footerSupportText',
+            '.footer-cta': 'footerSupportCta',
+            '.footer-eco-title': 'footerEcosystem',
+            '.footer-group[data-group="trackers"]': 'footerGroupTrackers',
+            '.footer-group[data-group="tools"]': 'footerGroupTools',
+            '.footer-group[data-group="games"]': 'footerGroupGames'
+        };
+        Object.keys(footerStrings).forEach(selector => {
+            const el = document.querySelector(selector);
+            if (el) el.textContent = t(footerStrings[selector]);
+        });
+
+        // The copyright year, written by the browser. A literal in the HTML would be
+        // the one fixed year in the house and would go stale on 1 January unnoticed.
+        const yearEl = document.getElementById('footer-year');
+        if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
         // Affiliate links
         const affiliateTitle = document.querySelector('.affiliate-title');
