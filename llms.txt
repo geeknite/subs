@@ -1,0 +1,28 @@
+# Subscription Cost Calculator
+
+> Gaming and streaming subscription calculator: works out what each
+> subscription really costs you per hour of use, not per month.
+
+Runs entirely in the browser. No account, and nothing you type is uploaded.
+
+## Pages
+
+- [Home and calculator](https://subs.geeknite.com/)
+- [Privacy](https://subs.geeknite.com/privacy.html)
+- [Legal notice](https://subs.geeknite.com/legal.html)
+
+## Full index
+
+- [Sitemap](https://subs.geeknite.com/sitemap.xml)
+
+## Usage policy
+
+- Indexing: allowed.
+- Answer-time citation: allowed and welcome. Please link back to the page used.
+- Training or corpus collection: not allowed.
+
+This repeats the `Content-Signal: search=yes, ai-input=yes, ai-train=no` line in
+https://subs.geeknite.com/robots.txt, which is where the policy is enforced.
+
+The tool computes a figure from what the reader enters; it does not publish a
+price list for any service, so there is no subscription price here to quote.
