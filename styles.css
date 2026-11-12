@@ -674,6 +674,10 @@ footer a:hover {
     font-size: 0.8rem;
 }
 
+.footer-eco-follow {
+    margin-top: 0.5rem;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
     header h1 {
